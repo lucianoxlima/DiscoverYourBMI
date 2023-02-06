@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Discover your BMI</string>
+    <string name="message">Ola, Luciano</string>
+    <string name="message_classificacao">Result: %1$s</string>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+    
+    <TextView
+        android:layout_marginTop="16dp"
+        android:text="Your BMI is:"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26dp" />
+
+    <TextView
+        android:layout_marginBottom="70dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/textview_classificacao"
+        android:text="Classificação: Normal"
+        android:textSize="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="20dp"
+        android:layout_margin="16dp"
+        android:textAlignment="center"
+        android:text="BMI Targets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="19dp"
+        android:textAlignment="center"
+        android:text="Severely Underweight      16.0 - 16.9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="19dp"
+        android:textAlignment="center"
+        android:text="Underweight                      17.0 - 18.4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="19dp"
+        android:textAlignment="center"
+        android:text="Normal                                18.5 - 24.9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="19dp"
+        android:textAlignment="center"
+        android:text="Overweight                         25.0 - 29.9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="19dp"
+        android:textAlignment="center"
+        android:text="Obese Class I                     30.0 - 34.9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="19dp"
+        android:textAlignment="center"
+        android:text="Obese Class II                    35.0 - 39.9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obese Class III                            => 40"
+        android:textAlignment="center"
+        android:textSize="19dp" />
+
+
+</LinearLayout>
